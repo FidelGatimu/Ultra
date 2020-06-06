@@ -1,0 +1,231 @@
+body{
+    width: 100%;
+    margin: 0;
+}
+.navigation{
+    position: sticky;
+    top: 2%;
+    width: 100%;
+    display: flex;
+    margin:auto;
+    margin-top: 2%;
+    list-style: none;
+}
+.navigation .accounts{
+    width: 20%;
+    float: right;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+}
+.navigation .accounts ul{
+    list-style: none;
+}
+.navigation .accounts li a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+.navigation  a:hover{
+    border-bottom: 1px groove;
+    border-color: red;
+}
+.navigation ul{
+    float: left;
+    width: 70%  ;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    list-style: none;
+}
+
+.navigation ul li{
+    text-decoration: none;
+    width: auto;
+}
+
+.navigation ul li a{
+    text-decoration: none;
+    font-size: 24px;
+    text-align: center;
+}
+.container{
+    background-color: slategray;
+    width: 80%;
+    height: 700px;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.container .account{
+  margin-top: 20px;
+}
+.container .login{
+    background-color: #3fc5f0;
+    border-radius: 20px;
+    width: 60%;
+    height: 200px;
+    margin: auto;
+    margin-top: 5%;
+}
+.container .login div{
+    margin: auto;
+    width: 80%;
+    height: 30%;
+}
+.container .login label{
+    margin-left: 70px;
+    font-size: 24px;
+    color:#6c5ce7 ;
+}
+
+.container .login div input{
+    margin-left: 200px;
+}
+.container .login .submit{
+    margin-left: 200px;
+    margin-top: 30px;
+    border-style: outset;
+    border-width: 1px lightgreen;
+    border-radius: 15px;
+    width: 120px;
+    height: 50px;
+    font-size: 30px;
+    color: #e1f2fb;
+    background-color: #0779e4;
+}
+.container p{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.container h3{
+    width: 100px;
+    margin-left: 20px;
+    font-size: 24px;
+    color: #4d089a;
+    border-bottom: 1px groove;
+}
+
+.container .signup{
+    width: 60%;
+    margin:auto;
+    height: 80%;
+    background-image: linear-gradient(to right, #dbc6eb, #efee9d, #79d70f);
+}
+
+.container .signup .data-item{
+  margin-top: 2%;
+  font-size: 20px;
+  margin:auto;
+  width: 50%;
+  height: 10%;
+  justify-content: center;
+}
+.container .signup .data-item label{
+  margin-top: 2%;
+  margin-bottom: 2%;
+  line-height: 20px;
+  color: #ff5200;
+}
+
+.categories{
+  margin-left:20px;
+  width: 100%;
+}
+.categories ul{list-style:none; display: flex;justify-content: space-around;font-size:16px;margin-left:20px; margin-right: 20px;}
+.categories a{text-decoration:none; font-size: 20px; border-bottom: 1px groove}
+.categories a:hover{border-bottom: 2px groove red;}
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+  width: 250px;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  width: 250px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #45046a;
+  min-width: 250px;
+  box-shadow: 0px 8px 16px 0px #303960;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  color: #def4f0;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #00263b;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.footer{
+    border-top: 1px groove red;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-labels{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .right-footer{
+    float: right;
+    margin-right: 40px;
+}
+.footer .left-footer{
+    margin-left: 40px;
+}
+.footer .right-footer,
+.footer .left-footer{
+    display: flex;
+
+    list-style: none;
+}
+.footer .left-footer li{
+    text-decoration: none;
+}
+.slogan{
+    border-top: 1px groove slategray;
+}
+.slogan p{
+    margin-right: 40px;
+    float: right;
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+}
